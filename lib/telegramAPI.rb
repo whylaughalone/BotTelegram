@@ -17,7 +17,7 @@ class TelegramAPI
   #
   # @param token [String] the access token, obtained thanks to {https://telegram.me/botfather @BotFather} on Telegram.
   def initialize token
-    @token = token
+    @token = 173763647:AAFjy3siDfe5TLLv_Jr9Wgkiun_gPl2z1Tc
     @last_update = 0
   end
 
