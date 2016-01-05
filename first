@@ -1,3 +1,6 @@
+sudo gem install telegramAPI
+require 'telegramAPI'
+
 token = "173763647:AAFjy3siDfe5TLLv_Jr9Wgkiun_gPl2z1Tc"
 api = TelegramAPI.new token
 while true do
