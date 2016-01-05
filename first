@@ -1,7 +1,7 @@
 require 'BotTelegram'
 
 token = "173763647:AAFjy3siDfe5TLLv_Jr9Wgkiun_gPl2z1Tc"
-api = TelegramAPI.new token
+api = BotTelegram.new token
 while true do
   # Get last messages if there are, or wait 180 seconds for new messages
   u=api.getUpdates({"timeout"=>180})
